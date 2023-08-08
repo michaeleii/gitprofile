@@ -3,7 +3,7 @@ import { FaCodeBranch, FaEye, FaInfo, FaLink, FaStar } from "react-icons/fa";
 
 function RepoItem({ repo }: { repo: GitHubRepository }) {
   return (
-    <div className="rounded-md card bg-gray-800 hover:bg-gray-900">
+    <div className="rounded-md card bg-neutral hover:bg-neutral-focus">
       <div className="card-body">
         <h3 className="mb-2 text-xl font-semibold">
           <a href={repo.html_url}>

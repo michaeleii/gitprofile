@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/router";
 import { FaGithub } from "react-icons/fa";
+import ThemeChanger from "../misc/ThemeChanger";
 
 function Navbar({ title = "GitProfile" }: { title?: string }) {
   return (
@@ -19,6 +20,7 @@ function Navbar({ title = "GitProfile" }: { title?: string }) {
             <Link to="/about" className="btn btn-ghost btn-sm rounded-btn">
               About
             </Link>
+            <ThemeChanger />
           </div>
         </div>
       </div>
