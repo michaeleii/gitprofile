@@ -6,7 +6,7 @@ function RepoItem({ repo }: { repo: GitHubRepository }) {
     <div className="rounded-md card bg-neutral hover:bg-neutral-focus">
       <div className="card-body">
         <h3 className="mb-2 text-xl font-semibold">
-          <a href={repo.html_url}>
+          <a href={repo.html_url} target="_blank" ref="noreferrer">
             <FaLink className="inline mr-1" /> {repo.name}
           </a>
         </h3>
